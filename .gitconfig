@@ -1,0 +1,13 @@
+[core]
+        autocrlf = true
+        editor = vim
+[user]
+        name = TunchinKao
+        email = tunchinkao@gmail.com
+[color]
+        ui = true
+[alias]
+        co = commit
+        ck = checkout
+        st = status
+        lg = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
